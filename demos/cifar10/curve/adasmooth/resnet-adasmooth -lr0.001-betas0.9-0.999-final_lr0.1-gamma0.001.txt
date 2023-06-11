@@ -1,0 +1,93 @@
+D:\PycharmProjects\AdaBound-master\venv\Scripts\python.exe D:/PycharmProjects/AdaBound-master/demos/cifar10/main.py --model=resnet --optim=adasmooth --lr=0.001 --beta1=0.9 --beta2=0.999 --beta3=0.999 --final_lr=0.1 --gamma=0.001
+<class 'argparse.Namespace'>
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+D:\PycharmProjects\AdaBound-master\venv\lib\site-packages\torch\optim\lr_scheduler.py:136: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+
+Epoch: 0
+D:\PycharmProjects\AdaBound-master\adasmooth\adasmooth.py:88: UserWarning: This overload of add is deprecated:
+	add(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add(Tensor other, *, Number alpha) (Triggered internally at  C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\python_arg_parser.cpp:1055.)
+  grad = grad.add(group['weight_decay'], p.data)
+train acc 41.910
+ test acc 50.830
+Saving..
+
+Epoch: 1
+train acc 63.380
+ test acc 67.750
+Saving..
+
+Epoch: 2
+train acc 73.536
+ test acc 67.320
+
+Epoch: 3
+train acc 78.720
+ test acc 76.240
+Saving..
+
+Epoch: 4
+train acc 81.502
+ test acc 80.650
+Saving..
+
+Epoch: 5
+train acc 83.894
+ test acc 76.600
+
+Epoch: 6
+train acc 85.694
+ test acc 81.840
+Saving..
+
+Epoch: 7
+train acc 87.224
+ test acc 86.130
+Saving..
+
+Epoch: 8
+train acc 88.218
+ test acc 85.560
+
+Epoch: 9
+train acc 89.056
+ test acc 86.650
+Saving..
+
+Epoch: 10
+train acc 89.916
+ test acc 84.940
+
+Epoch: 11
+train acc 90.550
+ test acc 87.820
+Saving..
+
+Epoch: 12
+train acc 91.122
+ test acc 87.110
+
+Epoch: 13
+train acc 91.590
+ test acc 87.790
+
+Epoch: 14
+train acc 92.082
+ test acc 87.860
+Saving..
+
+Epoch: 15
+train acc 92.548
+ test acc 86.650
+
+Epoch: 16
+train acc 93.006
+ test acc 88.000
+Saving..
+
+Epoch: 17
